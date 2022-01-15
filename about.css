@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  text-align: center;
+}
+
+#imgage {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 2px;
+}
+.text {
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 99px;
+  top: 3px;
+  color: #0a4b9b;
+  font-family: vernada, caps;
+}
+
+.right {
+  right: 38px;
+  top: 5px;
+  position: absolute;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+}
+.navbar li {
+  color: white;
+  display: inline-block;
+  font-size: 25;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.left div {
+  text-align: center;
+}
+.bt {
+  font-family: "baloo bhai";
+  padding: 4px;
+  background-color: #0a4b9b;
+  color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 42px;
+  width: 100px;
+  border-color: black;
+  text-decoration: none;
+}
+
+.bt:hover {
+  background-color: #04aa6d;
+}
+
+sonaimage {
+  position: absolute;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+#ghnv {
+  color: grey;
+}
+#h {
+  color: #04aa6d;
+  position: absolute;
+  top: 2px;
+  left: 200px;
+}
+#ii {
+  position: absolute;
+  top: 2px;
+  left: 280px;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0a4b9b;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: -webkit-fill-available;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+#img {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.section1 {
+  background: url("https://images.pexels.com/photos/950241/pexels-photo-950241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+
+  height: 600px;
+}
+.bio {
+  margin-left: 100px;
+  margin-top: 14rem;
+}
+#counts {
+  background-image: url("https://images.pexels.com/photos/5618007/pexels-photo-5618007.jpeg?cs=srgb&dl=pexels-bram-bleux-5618007.jpg&fm=jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.purecounter {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0a4b9b;
+}
+#counts p {
+  color: rgba(209, 10, 10, 0.829);
+  font-weight: bold;
+  font-style: italic;
+}
+.comp {
+  float: left;
+}
+
+#comp2 {
+  margin-left: 50px;
+}
+.iee {
+  display: inline-block;
+}
+#io {
+  position: relative;
+  left: 2px;
+  bottom: -10px;
+}
+#oi {
+  color: #24ebeb;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  top: 15px;
+  left: -20px;
+}
+#hh3 {
+  color: #aa3904;
+  text-align: center;
+}
+#h33 {
+  height: 5px;
+  width: 50px;
+  background-color: #083ea1;
+  margin-left: 49%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#jit {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ff1493;
+  font-size: 50px;
+}
+table {
+  margin-left: 25%;
+}
+#oner {
+  font-size: 25px;
+}
+.container {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.container:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}

@@ -1,0 +1,237 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+margin:0px;    
+padding:0px;
+background-image: linear-gradient( 177.6deg,  rgba(53,220,243,1) 16.7%, rgba(21,21,212,1) 121.6% );
+background-size: cover;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: -webkit-fill-available;
+}
+
+
+#imgage{
+    
+    display: inline-block;
+    position: absolute;
+    left:20px;
+    top:2px;
+    
+    
+    
+}
+.text{
+    text-align:left;
+    font-size:32px;
+    margin-bottom:0px;
+    padding:0px;
+    position: absolute;
+    left:99px;
+    top:3px;
+    color:#0a4b9b;
+    font-family: vernada,caps;
+    
+    
+}
+
+
+.right{
+    right: 38px;
+    top: 5px;
+    position: absolute;
+    display: inline-block;
+    
+    
+}
+.navbar{
+    display: inline-block;
+    position: absolute;
+    left:2px;
+    
+    
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 25;
+   
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.left div {
+    text-align: center;
+}
+.btn{
+    font-family: 'baloo bhai';
+    padding: 4px;
+    background-color: #0a4b9b;
+    color: white;
+    border: 2px solid ;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    height:42px;
+    width: 100px;
+    border-color: black;
+    text-decoration: none;
+    
+}
+#ghnv{
+    color: grey;
+}
+.btn:hover{
+background-color:#04AA6D;        
+}
+ 
+sonaimage{
+    position:absolute;
+    text-align: center;
+    height:100px;
+    width: 100px;
+}
+#h{
+    color: #04AA6D;
+    position: absolute;
+    top:2px;
+    left:200px;
+}
+#ii{
+    position: absolute;
+    top: 2px;
+    left: 280px;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color:#0a4b9b ;
+      position: absolute;
+      top: 50px;
+      left:0px;
+      width: -webkit-fill-available;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .q{
+      position: absolute;
+      top: 100px;
+      left: 600px;
+      font-family: Arial;
+      color:#0c54ac;
+      text-decoration: underline;
+  }
+  .addres{
+      position: absolute;
+      top: 200px;
+      left: 100px;
+      height: 50px;
+      border-radius:20px ;
+      cursor: pointer;
+  }
+  .phone{
+    position: absolute;
+    top: 750px;
+    left: 100px;
+    height: 50px;
+    border-radius:20px ;
+    background-color: white;
+    cursor: pointer;
+  }
+  .Email{
+    position: absolute;
+    top: 750px;
+    left: 550px;
+    height: 50px;
+    border-radius:20px ;
+    background-color: white;
+    cursor: pointer;
+  }
+  .add{
+      position:absolute;
+      top: 155px;
+      left: 155px;
+      font-size: 24px;
+      color:#04AA6D ;
+  }
+  .addd{
+    position:absolute;
+    top: 205px;
+    left: 155px;
+    
+    color: black;
+}
+#map{
+    position:absolute;
+    top: 260px;
+    left: 155px; 
+    border-radius: 15px;
+    width: 800px;
+    
+}
+.ph{
+    position: absolute;
+    top: 700px;
+    left: 159px;
+    color:#04AA6D;
+    font-size: 25px;
+}
+.phh{
+    position: absolute;
+    top: 760px;
+    left: 159px;
+    color: black;
+    
+}
+.em{
+    position: absolute;
+    top:705px ;
+    left: 610px;
+    color: #04AA6D;
+    font-size: 25px;
+
+}
+.emm{position: absolute;
+    top:760px ;
+    left: 610px;
+    color:black;
+    
+
+}
+
+
+#hr1{
+width: 80px;
+height: 6px;
+background-color:black;
+border: 0px;
+border-radius: 5px;
+}
+
